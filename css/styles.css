@@ -517,3 +517,30 @@ img {
 .foot-logo-box:focus {
     background-color: #31D0AA;
 }
+
+
+/* Затемнення*/
+
+.backdrop {
+    background: rgba(46, 47, 66, 0.40);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999999;
+}
+
+/* Модальне вікно */
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 4px;
+    background: #FCFCFC;
+    height: 584px;
+    width: 408px;
+
+}
