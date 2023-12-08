@@ -521,12 +521,10 @@ img {
 
 /* Форма у футері */
 
-.foot-last {
-    display: flex;
-}
 
 
 .subscribe-form {
+    display: flex;
     gap: 24px;
 }
 
@@ -539,11 +537,10 @@ img {
 .subscribe-btn-icon {
     display: flex;
     fill: #FFF;
-    margin-left: 16px;
-
 }
 
 .subscribe-form-input {
+    color: #FFF;
     width: 264px;
     height: 40px;
     background-color: transparent;
@@ -552,6 +549,7 @@ img {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     outline: 0px solid transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    padding: 8px 16px;
 }
 
 .subscribe-btn {
