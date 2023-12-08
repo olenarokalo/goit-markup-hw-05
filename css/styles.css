@@ -530,10 +530,10 @@ img {
     gap: 24px;
 }
 
-.subscribe-form-label {
+.subscribe-text {
     color: #FFF;
     font-weight: 500;
-
+    margin-bottom: 16px;
 }
 
 .subscribe-btn-icon {
